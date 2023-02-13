@@ -1,0 +1,159 @@
+    1  ls /root/server_lesson
+    2  docker stop centos7
+    3  docker stop centos7
+    4  exit
+    5  cd /root/server_lesson
+    6  vi README.md
+    7  vi README.md
+    8  ls 
+    9  vi README.md
+   10  exit
+   11  cd /root/server_lesson
+   12  vi README.md
+   13  exit
+   14  ls /root/server_lesson
+   15  cd /root/server_lesson
+   16  mkdir -p linux_practice2/documents
+   17  ls
+   18  ls /linux_practice2
+   19  ls linux_practice2
+   20  cd documents
+   21  cd linux_practice/documents
+   22  cd linux_practice2/documents
+   23  touch gizumo{01..50}.md
+   24  ls
+   25  cd ..
+   26  mkdir trash
+   27  ls
+   28  cd documents
+   29  mv gizumo{20..40}.md /root/server_lesson/linux_practice2/trash
+   30  cd ..
+   31  ls trash
+   32  touch .gitignore
+   33  ls
+   34  ls -a
+   35  vi .gitignore
+   36  history 300
+   37  ls
+   38  touch exec?command.log && history 300 >> exec_command.log
+   39  ls
+   40  rm exec?command.log
+   41  ls
+   42  cd /root/server_lesson/linux_practice2
+   43  git add -a
+   44  git add -A
+   45  git status
+   46  ls
+   47  ls -a
+   48  cd ..
+   49  git commit -m "question2-{1..5} is finished."
+   50  git reset --soft HEAD^
+   51  git status
+   52  git log
+   53  ls
+   54  cd linux_practice2
+   55  ls
+   56  ls -a
+   57  vi gitignore
+   58  vi .gitignore
+   59  git add .
+   60  git status
+   61  vi .gitignore
+   62  git reset HEAD trash
+   63  git status
+   64  git add trash
+   65  sit status
+   66  git status
+   67  git reset HEAD trash
+   68  git status
+   69  vi .gitignore
+   70  git rm --cached trash
+   71  git add .
+   72  git status
+   73  git reset HEAD trash
+   74  git status
+   75  vi .gitignore
+   76  git add .
+   77  git status
+   78  git status --ignore
+   79  git status --ignored
+   80  git reset HEAD
+   81  git status
+   82  git rm -cached
+   83  git rm --cached
+   84  git rm --cached .gitignore
+   85  ls
+   86  git rm --cached trash
+   87  git diff
+   88  git status
+   89  ls
+   90  ls-a
+   91  ls -a
+   92  ls trash
+   93  ls .gitignore
+   94  vi .gitignore
+   95  git add .
+   96  git status
+   97  git reset HEAD
+   98  git status
+   99  git rm gizumo{20..29}.md
+  100  ls
+  101  ls trash
+  102  git rm --cached gizumo{20..29}.md
+  103  git rm --cached /trash/gizumo{20..29}.md
+  104  git rm --cached trash/gizumo{20..29}.md
+  105  git rm --cached .gitignore
+  106  ls -a
+  107  vi gitignore
+  108  vi gitignore
+  109  ls -a
+  110  rm gitignore
+  111  ls
+  112  ls -a
+  113  vi .gitignore
+  114  git add linux_practice2
+  115  git add /root/server_lesson/linux_practice2
+  116  git status
+  117  git rm --cached gizumo{20..29}.md
+  118  git rm --cached /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  119  git add .
+  120  git status
+  121  vi .gitignore
+  122  git rm --cached /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  123  git add .
+  124  git status
+  125  vi .gitignore
+  126  git rm --cached /root/server_lesson/linux_practice2/trash/gizumo{20..29}.md
+  127  git rm --cached /root/server_lesson/linux_practice2/.gitignore
+  128  git status
+  129  git add .
+  130  git status
+  131  git reset HEAD
+  132  git status
+  133  git add .gitignore
+  134  git status
+  135  git commit -m "make a file .gitignore"
+  136  git log
+  137  git status
+  138  git add .
+  139  git status
+  140  git rm --cached gizumo{20..29}.md
+  141  cd trash
+  142  git rm --cached gizumo{20..29}.md
+  143  git status
+  144  git add
+  145  git add .
+  146  git status
+  147  cd ..
+  148  vi .gitignore
+  149  git rm --cached gizumo{20..29}.md
+  150  git status
+  151  git rm --cached gizumo{20..29}.md
+  152  git rm --cached /trash/gizumo{20..29}.md
+  153  git rm --cached trash/gizumo{20..29}.md
+  154  git status
+  155  vi .gitignore
+  156  git status
+  157  git add .
+  158  git status
+  159  history 300 > exec_command.log
